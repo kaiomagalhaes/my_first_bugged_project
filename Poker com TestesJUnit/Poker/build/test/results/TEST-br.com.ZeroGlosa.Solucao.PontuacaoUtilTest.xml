@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="kaio-PC" name="br.com.ZeroGlosa.Solucao.PontuacaoUtilTest" tests="1" time="0.693" timestamp="2013-06-07T14:35:33">
+  <properties>
+    <property name="netbeans.autoupdate.country" value="BR" />
+    <property name="javac.test.classpath" value=":build/classes:C:\Users\kaio\AppData\Roaming\NetBeans\7.3\modules\ext\junit-4.10.jar" />
+    <property name="libs.junit.javadoc" value="C:\Users\kaio\AppData\Roaming\NetBeans\7.3\docs\junit-3.8.2-api.zip" />
+    <property name="ant.core.lib" value="C:\Program Files\NetBeans 7.3\java\ant\lib\ant.jar" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="user.dir" value="C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker" />
+    <property name="libs.hibernate-persistence.javadoc" value="" />
+    <property name="java.vm.version" value="23.21-b01" />
+    <property name="libs.MySQLDriver.classpath" value="C:\Program Files\NetBeans 7.3\ide\modules\ext\mysql-connector-java-5.1.18-bin.jar" />
+    <property name="libs.eclipselinkmodelgen.src" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="libs.hibernate-support.maven-pom" value="" />
+    <property name="libs.hibernate-support.javadoc" value="" />
+    <property name="jdk.home" value="C:\Program Files\Java\jdk1.7.0_21" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="do.archive+manifest.available" value="true" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="have.tests" value="true" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="os.name" value="Windows 7" />
+    <property name="libs.beans-binding.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\beansbinding-1.2.1.jar" />
+    <property name="ap.proc.none.internal" value="" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="libs.testng.src" value="" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="os.arch" value="x86" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="user.name" value="kaio" />
+    <property name="copylibs.rebase" value="true" />
+    <property name="manifest.available+main.class" value="true" />
+    <property name="libs.swing-layout.maven-pom" value="" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner br.com.ZeroGlosa.Solucao.PontuacaoUtilTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker\build\test\results\TEST-br.com.ZeroGlosa.Solucao.PontuacaoUtilTest.xml crashfile=C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker\build\junitvmwatcher6564440164306434567.properties propsfile=C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker\build\junit5953295941045890824.properties" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="ap.supported.internal" value="true" />
+    <property name="libs.jaxws21.javadoc" value="C:\Program Files\NetBeans 7.3\java\docs\jaxws-api-doc.zip" />
+    <property name="includes" value="**" />
+    <property name="user.country" value="BR" />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="javac.classpath" value="" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="netbeans.home" value="C:\Program Files\NetBeans 7.3\platform" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="libs.ejb3-persistence.src" value="" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_21\jre\lib\endorsed" />
+    <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans 7.3\platform\core\core.jar;C:\Program Files\NetBeans 7.3\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 7.3\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 7.3\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 7.3\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 7.3\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 7.3\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 7.3\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 7.3\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 7.3\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files\NetBeans 7.3\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans 7.3\nb\core\locale\core_nb.jar;C:\Program Files\NetBeans 7.3\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files\NetBeans 7.3\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files\NetBeans 7.3\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Program Files\NetBeans 7.3\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="netbeans.productversion" value="NetBeans IDE 7.3 (Build 201302132200)" />
+    <property name="libs.hibernate-persistence.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\asm.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\asm-attrs.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files\NetBeans 7.3\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\jta.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\hibernate3.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\javassist.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\ejb3-persistence.jar" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="application.title" value="Poker" />
+    <property name="do.archive" value="true" />
+    <property name="netbeans.autoupdate.language" value="pt" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="jar.index.metainf" value="false" />
+    <property name="javac.debug" value="true" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="file.separator" value="\" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="mkdist.disabled" value="false" />
+    <property name="javac.test.processorpath" value=":build/classes:C:\Users\kaio\AppData\Roaming\NetBeans\7.3\modules\ext\junit-4.10.jar" />
+    <property name="netbeans.buildnumber" value="201302132200" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="user.variant" value="" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen.processor-2.3.2.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="libs.junit.classpath" value="C:\Users\kaio\AppData\Roaming\NetBeans\7.3\modules\ext\junit-3.8.2.jar" />
+    <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans 7.3\ide\docs\jaxb-api-doc.zip" />
+    <property name="ant.home" value="C:\Program Files\NetBeans 7.3\java\ant" />
+    <property name="libs.junit_4.src" value="C:\Users\kaio\AppData\Roaming\NetBeans\7.3\docs\junit-4.10-sources.jar" />
+    <property name="libs.testng.classpath" value="C:\Program Files\NetBeans 7.3\platform\modules\ext\testng-6.5.1-dist.jar" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_21\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;." />
+    <property name="javadoc.author" value="false" />
+    <property name="manifest.available+main.class-mkdist.available" value="true" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="basedir" value="C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker" />
+    <property name="libs.jpa20-persistence.maven-pom" value="" />
+    <property name="jar.compress" value="false" />
+    <property name="path.separator" value=";" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.jaxws21.classpath" value="C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\ha-api.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\javax.mail_1.4.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\management-api.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\policy.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\stax2-api.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\woodstox-core-asl.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\api\javax.annotation.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\jaxws22\api\saaj-api.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="compile.on.save" value="false" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
+    <property name="user.language" value="pt" />
+    <property name="testng.mode" value="testng" />
+    <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
+    <property name="libs.spring-framework.classpath" value="C:\Program Files\NetBeans 7.3\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring\spring-2.5.6.SEC03.jar" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="application.vendor" value="kaio" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
+    <property name="manifest.available" value="true" />
+    <property name="libs.spring-framework300.maven-pom" value="" />
+    <property name="run.test.classpath" value=":build/classes:C:\Users\kaio\AppData\Roaming\NetBeans\7.3\modules\ext\junit-4.10.jar:build/test/classes" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="test.binaryexcludes" value="" />
+    <property name="libs.swing-layout.javadoc" value="C:\Program Files\NetBeans 7.3\platform\docs\swing-layout-1.0.4-doc.zip" />
+    <property name="sun.java2d.dpiaware" value="true" />
+    <property name="libs.ejb3-persistence.maven-pom" value="" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.class.version" value="51.0" />
+    <property name="netbeans.system_http_proxy" value="DIRECT" />
+    <property name="libs.eclipselink.javadoc" value="" />
+    <property name="user.properties.file" value="C:\Users\kaio\AppData\Roaming\NetBeans\7.3\build.properties" />
+    <property name="runtime.encoding" value="UTF-8" />
+    <property name="libs.spring-framework.src" value="" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.JAXB-ENDORSED.javadoc" value="" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\NetBeans 7.3\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.spring-framework300.src" value="" />
+    <property name="empty.dir" value="C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker\build\empty" />
+    <property name="version-output" value="java version &quot;1.7" />
+    <property name="test.binarytestincludes" value="" />
+    <property name="javadoc.preview" value="true" />
+    <property name="libs.jpa20-persistence.javadoc" value="" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_21\jre" />
+    <property name="debug.test.classpath" value=":build/classes:C:\Users\kaio\AppData\Roaming\NetBeans\7.3\modules\ext\junit-4.10.jar:build/test/classes" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.MySQLDriver.maven-pom" value="" />
+    <property name="libs.junit_4.javadoc" value="C:\Users\kaio\AppData\Roaming\NetBeans\7.3\docs\junit-4.10-javadoc.jar" />
+    <property name="run.classpath" value=":build/classes" />
+    <property name="libs.hibernate-support.src" value="" />
+    <property name="jna.boot.library.name" value="jnidispatch-340" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="annotation.processing.enabled.in.editor" value="false" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="javac.deprecation" value="false" />
+    <property name="javadoc.use" value="true" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="javac.processorpath" value="" />
+    <property name="javac.compilerargs" value="" />
+    <property name="ant.file" value="C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker\build.xml" />
+    <property name="libs.beans-binding.maven-pom" value="" />
+    <property name="libs.beans-binding.src" value="" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.swing-layout.src" value="C:\Program Files\NetBeans 7.3\platform\docs\swing-layout-1.0.4-src.zip" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="netbeans.user" value="C:\Users\kaio\AppData\Roaming\NetBeans\7.3" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="ant.file.Poker" value="C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker\build.xml" />
+    <property name="java.io.tmpdir" value="C:\Users\kaio\AppData\Local\Temp\" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
+    <property name="junit.available" value="true" />
+    <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_21\jre\bin" />
+    <property name="have.sources" value="true" />
+    <property name="debug.classpath" value=":build/classes" />
+    <property name="javadoc.private" value="false" />
+    <property name="sun.awt.disableMixing" value="true" />
+    <property name="test.src.dir" value="test" />
+    <property name="ap.processors.internal" value="" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="dist.jar" value="dist/Poker.jar" />
+    <property name="ant.file.Poker-impl" value="C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker\nbproject\build-impl.xml" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.project.name" value="Poker" />
+    <property name="netbeans.hash.code" value="unique=NB_JAVA046cfa172-51e7-4ab4-872b-444294c6bcce_8746b893-c59c-4f09-9bc1-e8c6d5e7388b" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\kaio\AppData\Roaming\NetBeans" />
+    <property name="manifest.available-mkdist.available" value="true" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="libs.hibernate-support.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\asm.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\asm-attrs.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files\NetBeans 7.3\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\jta.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\hibernate3.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\javassist.jar" />
+    <property name="user.home" value="C:\Users\kaio" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="debug-args-line" value="-Xdebug" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="jar.index" value="false" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="libs.hibernate-persistence.maven-pom" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="do.archive+main.class.available" value="true" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.javac-api.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\nb-javac-api.jar" />
+    <property name="java.version" value="1.7.0_21" />
+    <property name="run.jvmargs.ide" value="" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.MySQLDriver.javadoc" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
+    <property name="libs.junit.maven-pom" value="" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="annotation.processing.processor.options" value="" />
+    <property name="libs.testng.maven-pom" value="" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="work.dir" value="C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker" />
+    <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="do.depend" value="false" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="libs.swing-layout.classpath" value="C:\Program Files\NetBeans 7.3\platform\modules\ext\swing-layout-1.0.4.jar" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="javac.source" value="1.7" />
+    <property name="libs.hibernate-persistence.src" value="" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="nb.junit.batch" value="true" />
+    <property name="junit.forkmode" value="perTest" />
+    <property name="libs.spring-framework.maven-pom" value="" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_21\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_21\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_21\jre\classes" />
+    <property name="javac.target" value="1.7" />
+    <property name="built-jar.properties" value="C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker\build\built-jar.properties" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="src.dir" value="src" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="libs.jpa20-persistence.src" value="" />
+    <property name="ignore.failing.tests" value="true" />
+    <property name="dist.dir" value="dist" />
+    <property name="do.archive+manifest.available+main.class" value="true" />
+    <property name="testng.debug.mode" value="" />
+    <property name="javac.fork" value="false" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="default.javac.source" value="1.7" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="libs.MySQLDriver.src" value="" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.runtime.version" value="1.7.0_21-b11" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="libs.ejb3-persistence.javadoc" value="" />
+    <property name="manifest.available+main.class+mkdist.available" value="true" />
+    <property name="default.javac.target" value="1.7" />
+    <property name="libs.junit_4.classpath" value="C:\Users\kaio\AppData\Roaming\NetBeans\7.3\modules\ext\junit-4.10.jar" />
+    <property name="user.timezone" value="" />
+    <property name="nb.junit.single" value="false" />
+    <property name="do.jar" value="true" />
+    <property name="netbeans.dirs" value="C:\Program Files\NetBeans 7.3\nb;C:\Program Files\NetBeans 7.3\ergonomics;C:\Program Files\NetBeans 7.3\ide;C:\Program Files\NetBeans 7.3\java;C:\Program Files\NetBeans 7.3\apisupport;C:\Program Files\NetBeans 7.3\webcommon;C:\Program Files\NetBeans 7.3\websvccommon;C:\Program Files\NetBeans 7.3\enterprise;C:\Program Files\NetBeans 7.3\mobility;C:\Program Files\NetBeans 7.3\profiler;C:\Program Files\NetBeans 7.3\python;C:\Program Files\NetBeans 7.3\php;C:\Program Files\NetBeans 7.3\identity;C:\Program Files\NetBeans 7.3\harness;C:\Program Files\NetBeans 7.3\cnd;C:\Program Files\NetBeans 7.3\dlight;C:\Program Files\NetBeans 7.3\groovy;C:\Program Files\NetBeans 7.3\extra;C:\Program Files\NetBeans 7.3\javacard;C:\Program Files\NetBeans 7.3\javafx" />
+    <property name="ant.file.type.Poker-impl" value="file" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_21\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="endorsed.classpath" value="" />
+    <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\AbsoluteLayout.jar" />
+    <property name="excludes" value="" />
+    <property name="java.class.path" value="C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker\build\classes;C:\Users\kaio\AppData\Roaming\NetBeans\7.3\modules\ext\junit-4.10.jar;C:\Users\kaio\Desktop\Projeto Poker - ZeroGlosa\Poker com TestesJUnit\Poker\build\test\classes;C:\Program Files\NetBeans 7.3\java\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 7.3\java\ant\lib\ant.jar;C:\Program Files\NetBeans 7.3\java\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 7.3\java\ant\lib\ant-junit4.jar" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="do.mkdist" value="true" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\eclipselink\javax.persistence-2.0.3.jar" />
+    <property name="os.version" value="6.1" />
+    <property name="application.args" value="" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="main.class.available" value="true" />
+    <property name="sun.desktop" value="windows" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\NetBeans 7.3\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\eclipselink\eclipselink-2.3.2.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\eclipselink\javax.persistence-2.0.3.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql_1.0.1.jar" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="libs.beans-binding.javadoc" value="C:\Program Files\NetBeans 7.3\java\docs\beansbinding-1.2.1-doc.zip" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="libs.CopyLibs.classpath" value="C:\Program Files\NetBeans 7.3\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans 7.3\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-aop-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-asm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-aspects-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-beans-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-context-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-context-support-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-core-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-expression-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-instrument-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-jdbc-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-jms-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-orm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-oxm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-test-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-tx-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-web-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-webmvc-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.3\java\modules\ext\spring-3.0\spring-struts-3.1.1.RELEASE.jar" />
+    <property name="run.jvmargs" value="" />
+    <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 7.3\java\modules\ext\hibernate\ejb3-persistence.jar" />
+    <property name="libs.spring-framework.javadoc" value="" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans 7.3\platform\docs\testng-6.5.1-javadoc.zip" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans 7.3\ide\modules\ext\postgresql-9.1-901.jdbc4.jar" />
+    <property name="user.script" value="" />
+    <property name="libs.junit.src" value="" />
+    <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="main.class" value="br.com.ZeroGlosa.Main.Main" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+    <property name="ant.file.type.Poker" value="file" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="jdkBug6558476" value="false" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="platform.active" value="default_platform" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+  </properties>
+  <testcase classname="br.com.ZeroGlosa.Solucao.PontuacaoUtilTest" name="testDefinirVencedor" time="0.591" />
+  <system-out><![CDATA[definirVencedor
+3s 5c 7c 8c 8h 9c Jh Dupla 
+3c 3h 4h 4s 6c Jc Kc Duas Duplas 
+Tc 3h 5h 7h Qh Ah As Flush 
+4c 5h 6h 7s Tc Qc Ac High Card 
+3c 5s 8s Th Js Ac Ah Dupla 
+3s 7c 9h Jc Kh Ac Ah Dupla 
+Tc Jc Qc Kc Th Ah 8s Straight  
+4c 6c 7s 8h Th Ts Qs Dupla 
+3h 4c 4h 9h Jc Qc Ks Dupla 
+4s 5c 7c 9c 9s Jc Jh Duas Duplas 
+3c 5c 6h 9h Th Jc Js Dupla 
+5h 6h 7s 8c Tc Kh Ks Dupla 
+4c 5h 7s 8s Qc Ks Ac High Card 
+4c 5h 3s 7s 8s Ks As Flush 
+8h Ts Jc Js Qs Kc Kh Duas Duplas 
+4s 5h 5s 6c 6h 8s 9s Duas Duplas 
+4s 5s 7h 8h 9h Ts Jc High Card 
+6s 7s 8c Tc Jh Kc Ah High Card 
+4h 4s 8s 9h 9s Th Jh Duas Duplas 
+5h 5s 6c 8s Tc Jc Qs Dupla 
+3c 4s 5s 7c Tc Qh Kc High Card 
+4h 6s 7h 8s Ts Qc Ac High Card 
+5c 8c 9c Qc Ac 5h 7s Flush 
+4h 4s 5h 7c 9h 9s Kh Duas Duplas 
+3s 4s 6c 8c 9c 9h Kc Dupla 
+4s 7c Ts Js Qc Qh Ks Dupla 
+3c 5c Jc 6h 3s 4s 7s Straight  
+5c 6c 9c Qc Kc 8h 7s Flush 
+3c 6c 9c Tc Kc 4h Jh Flush 
+4h 5c 5h 5s 6h 7s Qs Trinca 
+4s 6c 7s 8c Js Qc Ks High Card 
+3h 6s 9h Th Js Ks As High Card 
+4c 5c 5s 7h 8c 8s 9h Duas Duplas 
+5c 5h 7s 9c Tc Js Ks Dupla 
+3s 4s 5s 7h 9c Ac Ah Dupla 
+3c 4s 8s Th Jc Js Ac Dupla 
+3s 4c 6c 9c Th Jc Ks High Card 
+3s 5s 8h 9c Tc Th Jc Dupla 
+3s 6c 8h Ts Kc Kh Ah Dupla 
+3s 4s 6c 8c 8s Th Qh Dupla 
+3c 5s 7s 8h 9s Tc As High Card 
+5s 6h 7s 9c Ts Qh As High Card 
+3h 4s 7h Ts Qc Qs Ks Dupla 
+3h 4h 8c Tc Th Kc Ac Dupla 
+3c 3h 5h 8h 9h Qs Ks Dupla 
+7c 8s Tc Th Ts Jh Kc Trinca 
+9s Jc Qc Qh Kh Ks As Duas Duplas 
+3h 5h 7s Ts Jh Js Qc Dupla 
+6h 8h 9c 9h Ts Qc Ah Dupla 
+4h 6s Ts Jh Qc Qs Ks Dupla 
+4s 5c 5h 6s Qs Kh Ah Dupla 
+6s 7h 7s 9h Tc Jc Qs Dupla 
+3s 6h 7s 9s Th Qh Ac High Card 
+3h 7c 8h Ts Jc Qc Qh Dupla 
+6c 6h 8s 9s Ts Kc As Dupla 
+4c 7s 8c 9c Js Qh Kc High Card 
+3c 4s 6c 6h 8s 9s Kc Dupla 
+5c 8c 9c 7h Jh 5s 6s Straight  
+4s 5h 6h 7c 9c Kh As High Card 
+3s 7h Js Qc Qh Kh Ks Duas Duplas 
+3c 3s 4s 6c 6s 9h Qs Duas Duplas 
+3c 7c 7s 8s 9h Th Qh Dupla 
+3h 4c 4h 5c 8h Ac As Duas Duplas 
+4c 5h 5s 8c Th Jc Qs Dupla 
+4h 5h 8c 8s 9s Kc Ac Dupla 
+4h 7h 7s 8c Th Kc Ah Dupla 
+6h 7c 8h 9h Qh Kc Ac High Card 
+3s 4c 7h Th Qc Ac Ah Dupla 
+Tc Jc 7h Ah 4s Qs Ks Straight  
+3h 5s 7h 9s Tc Qs Ah High Card 
+4h 6h 9c 9s Ts Jc Ah Dupla 
+6c 7c Tc Kc 9h Qh 8s Straight  
+5s 6c 7h Jh Qc Kc As High Card 
+5s 6c 7s Th Ts Jh Qs Dupla 
+5h 6h 7c 7h Jh Qs Ks Dupla 
+4h 8s 9c Jh Qc Kc Ah High Card 
+3s 5s 6c 7h 8c Tc Kc High Card 
+5h 6c 7h 8c 8s Ts Kc Dupla 
+4h 5c 7h 8h 9c Ts As High Card 
+5h 7s 9s Ts Jh Ac Ah Dupla 
+7c 8h Jc Qc Qs Kh As Dupla 
+4c 4s 5h 6h Ts Qh Ah Dupla 
+3c 6h 8c 8s Th Jh Qh Dupla 
+3s 5c 6c 8h 9s Th Qc High Card 
+8c Tc Jc 9h Jh 7s Qs Straight  
+4c 5c 7h 9h Tc Qc As High Card 
+3h 3s 4h 6h 6s Jh Ks Duas Duplas 
+3c 4c 5c 9s Qc Qh Ah Dupla 
+4h 5c 8h 9h Qc Qs As Dupla 
+6c 6h Th Jh Qc Qh As Duas Duplas 
+4s 5c 7h 9h Jc Ks Ah High Card 
+3s 4c 4h 6c 8h 9c Js Dupla 
+3h 4h 7c Th Jc Jh Qs Dupla 
+3c 4h 4s 5c 9s Ts As Dupla 
+3c 3h 6s 8h 9s Jc Qh Dupla 
+3s 6c 7s 9h Qh Kh Ks Dupla 
+3c 4s 5c 5s 7c 7h Kc Duas Duplas 
+5s 6c 7s Qc Qh Kc Ac Dupla 
+3h Qh 3s 4s 8s Ts Js Flush 
+3h 7h 8c Jc Qs Ac As Dupla 
+3h 4c 4s 7h Jc Jh Qh Duas Duplas 
+4c 7c 8c Qc Ac 5h 9h Flush 
+3c 5h Ts Jc Jh Kc Kh Duas Duplas 
+3s 5s 6c 6s 7c Kh Ah Dupla 
+3h 3s 4s 5c 8c Jh Qc Dupla 
+4c 6s 8s Tc Qc Ks As High Card 
+3c 5s 7h 9c 9s Ac Ah Duas Duplas 
+4h 4s 5h 7h Jc Kh Ks Duas Duplas 
+4h 5c 5s 7c 9h Ts Js Dupla 
+3c 7h 9c Ts Jh Qc Ah High Card 
+6s 7s 9h Th Qc Qh Kc Dupla 
+3h 4c 6h 6s 7c 8c Th Dupla 
+3s 5s Tc Ts Jc Kc As Dupla 
+3c 5s 8c Ts Qc Kh Ah High Card 
+5c 6h 7c 8h 8s Kh Ks Duas Duplas 
+4c Kc 5h 8h 9h Qh Ah Flush 
+3c 7h Qs Kc Kh Ks Ac Trinca 
+5c 5h 6c 7s Ts Qh As Dupla 
+7c 8h 9s Qc Qs Ks Ah Dupla 
+3c 6h 7s Th Jc Qs Ks High Card 
+5s 7s 8h 8s Ts Qc Kc Dupla 
+3c 6s 7h 7s 8c Ac As Duas Duplas 
+3c 5h 7c 8c 9c Ts As High Card 
+5c 5h 6s 9c Tc Th Kc Duas Duplas 
+3c 7h 8h 9c Jc Ks Ac High Card 
+3c 5c 8h Th Qc Qs Kc Dupla 
+4c 6h 3s 7s Ts Qs As Flush 
+5h Kh 4s 9s Ts Qs As Flush 
+3c 3s 5s 9c Jc Jh Qs Duas Duplas 
+3h 5c 8s Jh Qh Kc As High Card 
+5h 7c 7s 8h Qc Kc Kh Duas Duplas 
+3s 4c 5s 7s Tc Jc Ac High Card 
+8c 4h 6h 9h Kh Ah As Flush 
+3c 3s 5h 7c Js Qs Ks Dupla 
+3h Th Ts Jc Js Kh As Duas Duplas 
+5h 7c 7s 8h Ts Kc Ah Dupla 
+3c 4s 6c 9s Tc Th Qh Dupla 
+5c 3h 7h 9h Qh Kh Js Flush 
+3h 7h 7s Jc Kh Ac As Duas Duplas 
+4c 6c 7c Qc Ac Jh 8s Flush 
+3c 4c 4h 9c Jc Qs As Dupla 
+3c 4s 5s 8c 9s Tc Ks High Card 
+3h 6c 9c 9h 9s Js As Trinca 
+3c 5h 9c 9s Jc Ks As Dupla 
+5s 8h 9c Qc Kc Ah As Dupla 
+3c 4c 4h 6h 7s 9s Ks Dupla 
+3h 6s 7c 7s 9h Ts Qh Dupla 
+3c 4c 4h 5s 9h Kh Ac Dupla 
+3h 7h 9c 9h Jh Ac As Duas Duplas 
+3c 4s 7s 8h 9s Jh Ah High Card 
+3c 4c 4s 7h Ts Qh Kc Dupla 
+3c 4s 5h 6c 8h Tc Ac High Card 
+3s 4c 4h 8s 9c Qh Kc Dupla 
+Tc 4h 8h Qh Kh Ah 3s Flush 
+3h 5h 6h 7c Qc Ah As Dupla 
+3h 4c 4h 6h 7c 9c Tc Dupla 
+3s 4s 5c 6h 8c Kc Ac High Card 
+3s 8c Th Jc Js Ks Ac Dupla 
+3s 4s 7h 9c Th Jc Js Dupla 
+4c 8h 8s 9s Tc Th Jc Duas Duplas 
+3h 4h 7c Ts Jc Qc Ks High Card 
+Tc Kh Ah 3s 7s Js Qs Straight  
+3s 4h 7s 8c Kh Ah As Dupla 
+Tc 6h 7h 8h 9h 8s Ks Straight  
+5c 6c 9h 9s Qs Kc Ah Dupla 
+4h 4s 7c 9c Tc Js Ac Dupla 
+3s 4s 6h 7c 7h 9c Jh Dupla 
+5s Jc Js Qh Qs Ks Ac Duas Duplas 
+3h 4h 5h 7c Qc Qh As Dupla 
+4c 6c 7c 3h 5h Ts As Straight  
+4c 6s 9c Ts Kh Ac Ah Dupla 
+5c 6c 7h 9c Th Ah As Dupla 
+6c 7c 8s Qs Kc Kh As Dupla 
+3h 5c 7h 9s Ts Qc Ks High Card 
+8c Ac 6h 8h 9h 5s 7s Straight  
+4h 5s 8h 8s 9c Js Qc Dupla 
+4c 4h 5s 8c Tc Ts Kh Duas Duplas 
+3s 6c 8c 8h 9c Qc Kh Dupla 
+5c Qc 5h 7h 8h Th Jh Flush 
+3s 4s 5h 7s 9h Js Ac High Card 
+5s 6h 7h 9s Th Qs Ks High Card 
+4s 5h 7c 8h 8s Kh Ac Dupla 
+3h 5h 7c Ts Qc Kc As High Card 
+3c 4h 9s Th Jc Qc Ah High Card 
+7h 8s 9c Th Qc Kh As High Card 
+3s 4h 4s 6c 7h Jc Kc Dupla 
+3h 6h Jc Qc Kc Kh As Dupla 
+4c 4s 6c 8s Tc Qs Kh Dupla 
+6h 6s 7c 8s Qs Kh Ah Dupla 
+3c 4h 6c 9h Ts Jh Ks High Card 
+3c 7c 9c Qc Ac 6s Ts Flush 
+3s 4h 9c 9s Ts Kc Kh Duas Duplas 
+7h 9h Ts Jc Kc Ac As Dupla 
+5c 5h 7c 7s 9s Jh Qh Duas Duplas 
+Jc 3h 9h 5s Ts Qs Ks Straight  
+Jc 3h 4h 5h 6h 8h Qh Flush 
+6h 6s 8c 9c Th Kc Ah Dupla 
+3h 3s 7s 8c Jc Js Qc Duas Duplas 
+3c 4c 6c Tc Th Qh As Dupla 
+3h 4s 8s 9h 9s Jc Js Duas Duplas 
+7c 9c Tc Jc Kc 5h Kh Flush 
+5s 6h 8h Js Qh Ks Ah High Card 
+4c 4h 8c 9s Tc Js Ac Dupla 
+4c 4h 5s 6h 6s Jc Kh Duas Duplas 
+Jc 4h 7h 8h Qh Kh As Flush 
+8c Tc Qc Kc Ac 4s 7s Flush 
+4c 5h 8h 9s Jc Ac As Dupla 
+4s 6c 6s 7h 7s 8h Qc Duas Duplas 
+5c 6h 6s 8c 9c 9h Th Duas Duplas 
+3h 6c 8h 9h Th Jc Kc High Card 
+Tc 9h 3s 4s 6s 8s As Flush 
+3c 4h 6h 7s Qh Kc As High Card 
+3h 4h 9c Th Jh Ks As High Card 
+3s 5s 6h 7c 8s Th Jc High Card 
+4s 5h 9h Th Qc Qs Ac Dupla 
+5h 6c Th Ts Jh Qs Ah Dupla 
+3s 4h 6s Tc Js Qc Qh Dupla 
+4c 5h 5s 7s 9s Ts Qc Dupla 
+5c Ac 5s 7s Ts Qs As Flush 
+4s 6h 8h 8s Th Qh As Dupla 
+3c 5h 6c 7h Qc Kh Ac High Card 
+3c 5h 9h Jc Jh Qh Qs Duas Duplas 
+4h 6h 6s 8h Th Ts Qc Duas Duplas 
+4c 4h 5h 7s Tc Jc Qh Dupla 
+3h 4c 9c Th Js Qh Ac High Card 
+4c 6c 7h 8h Th Jh Qs High Card 
+4c 6s 7c Ts Js Kc Ac High Card 
+8c 5h 6h 7h Ah 4s 7s Straight  
+3h 5s 7h 8h Tc Jc Kh High Card 
+3s 4c 5s 8c Jh Qc Ah High Card 
+4s 5s 7h 8h 9h Ts Qh High Card 
+4s 6c 9s Tc Jc Ks Ah High Card 
+6c 8c 8h Js Qc Kh Ac Dupla 
+4h 5c 7s 8s 9c 9s Ac Dupla 
+3c 6h 4s 6s 7s Ts Qs Flush 
+3c 4h 4s 6s 7h 9c As Dupla 
+5s 8s 9c Js Qc Kc As High Card 
+3c 4h 5h 8c Jc Qs Ac High Card 
+3h 3s 4c 4s 9c Tc Ts Duas Duplas 
+4h 6c 7c 9s Th Jh Qc High Card 
+3h 4c 6c 7c 7s Ks As Dupla 
+3s 4s 6s 7c Th Kh As High Card 
+8c 9c Ac 5h 6h 7s Ts Straight  
+5c 7s 8s Th Js Qc Ks High Card 
+3c 6c 6h 7c 8h 9h Jc Dupla 
+3s 5c 5h 6c 9h Qc Ac Dupla 
+4c 5c 5h 6c 9c Qh Qs Duas Duplas 
+3s 4s 5c Tc Jc Kh Ac High Card 
+3h 4h 5h 8c Js Qh Ac High Card 
+5h 7h 8c Tc Jc Ks Ac High Card 
+3c 5h 7c 7s 9h 9s Qc Duas Duplas 
+5c 7c 5h 6h 7h Th Ah Flush 
+3s 4c 5c 6h 8c Js Qh High Card 
+4s 5h 7c 9h Ts Js Qc High Card 
+4h 5s 7h 8h 9s Kc As High Card 
+3c Jc Kc Ac Th 8s Qs Straight  
+3c 4c Tc Jc Kc 6h Qs Flush 
+4s 7h 8h 8s Tc Kh Ks Duas Duplas 
+5h 6c 8c Tc Jh Qc Ah High Card 
+3s 5h 7c 8c Ts Qc Ac High Card 
+3h 4h 5s 6s 8h 9h As High Card 
+7s 8c 9c Js Qh Kh Ah High Card 
+4h 5h 7s 8c 8s Ts Ac Dupla 
+3h 6h 8c 8s Tc Jh Js Duas Duplas 
+5s 6s Th Qc Qs Kh Ac Dupla 
+3s 7c 8c Tc Js Ac As Dupla 
+Ac 7h 3s 5s Ts Js As Flush 
+4c 7c 9s Jh Kh Ac Ah Dupla 
+3h 3s 4h 5s 9s Ks Ah Dupla 
+4s 6s 8c 8s 9c Tc Ts Duas Duplas 
+4h 7s 8c Ts Jc Qh Ks High Card 
+4c 7h 9s Tc Th Js Qs Dupla 
+5c 6h 7h 7s 8c Qs As Dupla 
+3h 6h 7c 8c 9c Jc Ks High Card 
+3s 4s 5c 6s 8c Js Ac High Card 
+5h 6h 7s Jc Js Qh Ah Dupla 
+3s 4h 6s 7s 9h Jc Ac High Card 
+5c 5h 6h Tc Jh Qs Ah Dupla 
+3h 5c 7h 8s Tc Ks As High Card 
+3h 4s 6h Jc Js Qc Ks Dupla 
+3h 5c 6c 9s Qc Qs Kh Dupla 
+3h 5c 6h 8c Jh Ks Ac High Card 
+4c 6s 8h 9h Ts Kh Ah High Card 
+5h 6c 7c Js Qh Kh As High Card 
+5h 8h 9s Tc Ts Ks As Dupla 
+4s 6h 7h 9s Th Jh Qc High Card 
+3s 5s 6c 8c 8h Tc Ac Dupla 
+4s 5s 6c 6h Jc Js Qs Duas Duplas 
+4h 5c 8h 9c Jh Kh As High Card 
+3h 8h 9h Jh Qs Kc Ks Dupla 
+3c 7h Tc Ts Js Qh Ah Dupla 
+4s 5s 6s 9h Qh Qs Kc Dupla 
+4h 4s 7s 8h 9c Ks As Dupla 
+3c 7c 8c 9c Tc 8h 5s Flush 
+6c 6s 7s 8h Th Ac As Duas Duplas 
+7c 8c Qc 8h 9s Ts Js Straight  
+3s 5c 7h 8h Tc Qh Kh High Card 
+5h 6c 8s 9c 9h Tc Ah Dupla 
+5s 6c 7c 8h Qc Qh Kc Dupla 
+6c 7c 9c Tc Jh 4s 8s Straight  
+4s 5c 6s 8c 8h Jc Kc Dupla 
+3h 4s 6c Ts Jc Qc As High Card 
+4c 4s 6h Jh Qs Kc As Dupla 
+3c 4c 7h 8c Ts Js Qc High Card 
+3c 4c 4s 5h 8c 8h Th Duas Duplas 
+6c 7c 9s Jh Js Qc Kc Dupla 
+6c 6h 9s Tc Jh Kh Ac Dupla 
+Ac 5h 6h 7h Qh Kh Js Flush 
+4c 5c 6c 3s 7s 8s Ks Straight  
+3h 7c 9s Th Jc Js Qh Dupla 
+4h 5h 7s 8h Tc Jc Js Dupla 
+6s 7h 8h Jh Js Kc Ac Dupla 
+Tc Th 3s 5s 7s Ts As Flush 
+4c 4s 6s 8c 9s Ts Ac Dupla 
+3c 4s 6c 8s 9c Tc Ah High Card 
+3h 4s 6s 7h 8s Th Qc High Card 
+5s 7s 8c 9s Jh Kc As High Card 
+4c 5h 6s 7s Tc Ac Ah Dupla 
+3s 4h 5h 6h 9h Jc As High Card 
+3s 6s 7s Th Jh Qc Ac High Card 
+3s 4s 5h 8h Js Qs Kc High Card 
+3h 4c 5s 6h Js Qh Ac High Card 
+4s 5c 8c 9h Kc Ks As Dupla 
+3c 3s 5s 7c 8s Ts Ah Dupla 
+3h 4h 5c 7s 8s 9s Jc High Card 
+4h 4s 5s 6h 7h Jc As Dupla 
+4c Ac 6h 8h 9h Kh Ah Flush 
+3h 5h 5s 7s 8s Jh Qs Dupla 
+4c 5c 5h 9s Jc Qh As Dupla 
+3h 5h 5s 8h Ts Jh Ks Dupla 
+3c 5c 5s 6h Jh Qs As Dupla 
+3s 7h 7s Jh Qh Kh Ks Duas Duplas 
+8c 8h 9h Th Jh Js Kc Duas Duplas 
+4h 5h 7h 8h Kh Ts As Flush 
+5c 6s 8h 9c Jh Qs Kh High Card 
+3s 4h 5h 6h 9c Qs Ac High Card 
+3h 5s 6h 8s Js Qs Kh High Card 
+3h 5s 7c 7s Tc Jh Qs Dupla 
+3c 8c 5s Ts Js Ks As Flush 
+5s 9c Th Js Qs Ac As Dupla 
+5h 6h 7s 8h Qc Qh As Dupla 
+3s 5h 6c Tc Ts Jc Ac Dupla 
+5c 6c 6s 8h 9h 9s As Duas Duplas 
+3h 6h 7h 9s Tc Js Qc High Card 
+4c Jc Qc Kc Ac Th Js Flush 
+5c 5h 4s 6s Qs Ks As Flush 
+4c 5s 7c 8h 9c Tc Qh High Card 
+5c 7c 8h Jc Qs Kh Ac High Card 
+3h 3s 5s 6h 6s 8s Ah Duas Duplas 
+4s 8s 9c 9h Tc Kc Kh Duas Duplas 
+3c 4h 6s Jh Qh Ks Ac High Card 
+3s 4s 6c 9s Jc Qh Ks High Card 
+5c 5s 6s 9h Tc Kc Ac Dupla 
+5c Qc 4h 6h 7h 8s Ks Straight  
+3c 3s 5s 7h 9s Ts Jh Dupla 
+3c 5h 6c 6s 7c 9c Ts Dupla 
+3h 4h 8s 9h 9s Ks As Dupla 
+4s 6c 6s 7s Th Qh Ah Dupla 
+3s 4c 9h Th Jh Kc As High Card 
+6c 6s 8s Ts Js Qc Kc Dupla 
+3s 4c 8h Tc Jc Js Kh Dupla 
+3s 6h Th Ts Qh Kh Ks Duas Duplas 
+3c 5c 7s 8s 9c Jc Ah High Card 
+4s 5h 7c 7h 8s Th Jh Dupla 
+4h 5h 5s 7c Tc Qs Ah Dupla 
+4h 4s 5c 7h 8c Tc Ac Dupla 
+4c 5c 7c 8c Qc 9h Th Flush 
+6h 7s 8s Th Qc Qh Qs Trinca 
+5c 6c 7h Ts Js Ks As High Card 
+5c 5s 6h 8c Th Qc Ks Dupla 
+5c 6c 7c Ts Jh Qh Kh High Card 
+3h 5h 9c Js Qh Qs Kc Dupla 
+4h 6s 8h 9h 9s Ts Jc Dupla 
+5c 6h 7h Ts Js Kh Ks Dupla 
+5h 6c 7h 8s Jc Js Ac Dupla 
+5c 5h 6h 9c Th Qc Ac Dupla 
+3h 3s 6h 8s Jc Kh Ks Duas Duplas 
+3h 4h 5c 7s Th Qc Ac High Card 
+3c 7c 9h Th Js Qh As High Card 
+3s 4c 6h 9h 9s Th Jc Dupla 
+3s 4h 8s 9h Ts Jh Ks High Card 
+3h 3s 4c 5c 5s 8c Ks Duas Duplas 
+4c 5s 6h 8s Th Ks Ah High Card 
+6s 8h 9h Ts Qh Qs Kh Dupla 
+3c 3s 6s 8c 8h Tc Jc Duas Duplas 
+7h 8c 9h Jc Qc Kh Ac High Card 
+5c 7h 9h Jh Kh Ac As Dupla 
+4c 7c 8s Tc Th Js Qh Dupla 
+4c 6h 7c 7s 8s 9s Qh Dupla 
+3c 4s 5c 9s Th Kc Ah High Card 
+3s 8c 9c Qh Kh Ah As Dupla 
+4h 5c 8c 9h Jc Qc Kh High Card 
+3c 5s Jh Qh Kh Ks Ac Dupla 
+3c 5c 9s Ts Js Qs Ac High Card 
+5s 7c 9h Th Qs Kh As High Card 
+3c 5c 5h 7h 8s Ks Ah Dupla 
+4s 5s 6c 9h Js Kh Ac High Card 
+3c 4s 5s 7h 7s Tc As Dupla 
+3c 4c 5c Qc Kc 5h Qh Flush 
+3c 3s 4s 7c 7s Ts Ah Duas Duplas 
+3c 4h 7h 7s 9s Js Qs Dupla 
+3s 4s 7c 7s 9s Kh Ah Dupla 
+3s 4c 6s 7h Js Qh Ah High Card 
+3s 4h 6s 9c 9h Js Qs Dupla 
+3h 4h 6s 7c 8c 9h Ah High Card 
+5s 6c 8h 9s Th Qc Ac High Card 
+3h 4s 5s 6s Tc Js Qh High Card 
+3s 4s 7h 7s 8h Th Ac Dupla 
+4s 5s 7h 9h Tc Kh As High Card 
+5h 7h 8h Tc Jc Qc Ac High Card 
+3s 4c 5h Ts Js Qh Ac High Card 
+3s 6c 6s 8h 9s Qc Ac Dupla 
+4s 6c 7h 9c Ts Qh Ah High Card 
+3h 3s 4s 6h 7h 9h Ts Dupla 
+4s 5c 5s 7c 8h 9h Js Dupla 
+4h 5c 5h 7s Ts Qs Ks Dupla 
+4s 7c 7h 9s Js Ac Ah Duas Duplas 
+6c Jh Qc Qs Kc Ks Ac Duas Duplas 
+3c 5h 8s Jh Qh Kc Kh Dupla 
+3c 4h 9c Ts Jh Ks As High Card 
+4c 5c 7s 8h 9c Ts Qs High Card 
+4s 5c 5s 6c 8c Qc Ah Dupla 
+Ac Qh 4s 5s 8s 9s Ks Flush 
+4s 6h 6s 9c Jc Kc As Dupla 
+3h 5s 6s 8h 8s Qc Ac Dupla 
+3h 3s 4s 6h 8h 9s Kc Dupla 
+3c 5s 6c 8c 9h Kh Ks Dupla 
+3h 4h 4s 6c 9h Jc As Dupla 
+3h 4h 5h 6c 8c 8h Qc Dupla 
+3c 5c 6c 7s 9s Jc Kh High Card 
+5c 8c Tc Jc Kh Ah Qs Straight  
+3c 3s 7c 8c Js Qs As Dupla 
+3c 4s 5c 6s 8c 8s 9c Dupla 
+3c 3h 6h 6s 8s Ac Ah Duas Duplas 
+5c 7c Tc Qc 9h Jh Kh Straight  
+3c 5c 7c Tc Ac 5h Jh Flush 
+4c 5c Tc Qs Kh Ks Ac Dupla 
+3h 4s 6c 7s 8s Qh Kc High Card 
+4h 6c 7c 8s Th Jh Qh High Card 
+4h 5h 6h 7h Ts Kc As High Card 
+4h 6s Ts Jc Kh Ks Ac Dupla 
+3c 4h 5h 5s 7c 8c Ac Dupla 
+4h 5c 5s 9h Th Jh Ks Dupla 
+7h 9h 4s Ts Qs Ks As Flush 
+3c 7s 8s 9c 9h Th Ac Dupla 
+8c 9h Jh Qc Qs Kh Ah Dupla 
+5c 8c 3s 5s 8s 9s Qs Flush 
+3h 7s 8h Jh Qs Kh Ac High Card 
+3c 3s 5h 6h 7c 9s Kh Dupla 
+3h 4s 6h Tc Jh Kh Ac High Card 
+3c 8c 9s Th Ts Jh Js Duas Duplas 
+3c 4c Tc Ts Jh Js Qh Duas Duplas 
+4s 6h 7c Th Js Kc As High Card 
+3h 7h 9c Ts Jc Qc Ah High Card 
+3c 3h 4c 5c 5h 9s Qs Duas Duplas 
+4s 8h 9c Js Qs Ac As Dupla 
+3s 4s 5c 6h 9h Tc Qh High Card 
+3c 5h 8h 8s 9h Qc Qs Duas Duplas 
+3c 3h 7h Tc Qs Kh Ks Duas Duplas 
+6h 7c 9c Ts Qc Qh As Dupla 
+3h 4h 5h 7h 7s Ks Ac Dupla 
+3c 4h 5h 9h Qc Kh As High Card 
+3s 7c 9c Th Js Qh Ac High Card 
+4c 6c 7s 8c 8s 9c 9s Duas Duplas 
+6c 8c 5h 9h 6s 7s 9s Straight  
+4c 6s 9c Jh Ks Ah As Dupla 
+3c 4c Tc Jc Kc Th As Flush 
+3c 4s 5c 7h 8c 9h Ts High Card 
+7c 7h Tc Th Jh Qs As Duas Duplas 
+3h 5c 6s 8h 9h Js As High Card 
+4s 5h 6c 7c 9h Kc Ah High Card 
+3c 6c Tc Jc Qc Kc 6s Flush 
+7c 8h Ts Jc Jh Qh As Dupla 
+3c 4c 8s Th Qs Ah As Dupla 
+3c 5c 7h 9s Ts Jh Js Dupla 
+5c 6h Tc Th Js Qc Ah Dupla 
+4h Ah 3s 5s 7s Js Ks Flush 
+3h 3s 4s 5h 6s 8s Qc Dupla 
+3h 4h 8h 9c Ts Qs Ks High Card 
+4c 6h Th Jh Js Qs Ac Dupla 
+3c 3h 4c 5h 7h 9h Qs Dupla 
+4c 5c 5h 6s 8c 9h Qc Dupla 
+7c 7s 9c 9s Tc Js Qs Duas Duplas 
+3c 5c 6c Kc Ac 8h Ts Flush 
+3h 5s 9c Tc Qc Qh Ah Dupla 
+7c 7s 8c 8s 9c Ts Ac Duas Duplas 
+3h 5h 6s 7c Th Ks Ah High Card 
+3c 3h 5h 7s 9c 9h Th Duas Duplas 
+4h 5c 6s 9h Tc Jc Jh Dupla 
+Jc 3h 7h 9h Kh Ah Js Flush 
+7c 8c 8h 9c Js Kc Ks Duas Duplas 
+3c 5c 4h 5h 7h Kh Ah Flush 
+4c 5s 9c 9s Kc Ks Ah Duas Duplas 
+3c 6c 8s 9h Jc Qh Ks High Card 
+3c 5h 6c 6s 8h 8s Qh Duas Duplas 
+3s 6s 7c 7s 8h Jc Js Duas Duplas 
+5c 7h 8c Th Qs Kh Ks Dupla 
+4c 6c 7c 8h Jh Qc As High Card 
+3c 6c 7c 8c Qc Kc As Flush 
+6h 7c 7s 8s 9s Kh Ac Dupla 
+5h Th 3s 4s 6s 9s Qs Flush 
+3c 6h 7c 7s 8h 9h Qs Dupla 
+4c 5c 6c Qc Kc 4h 9s Flush 
+4c 5h 8c 8s 9h Tc Js Dupla 
+5c 7c Tc Qc 8s 9s Js Straight  
+3h 5c 8s Ts Jh Kh Ks Dupla 
+3c 5c 5s 8c Tc Qh Qs Duas Duplas 
+7c 9c Ac 3s 8s Ts Js Straight  
+Qc 5h 6h 8h Th Ah Qs Flush 
+6h 7s 8s 9s Js Ks As Flush 
+3s 5h 7c Tc Jc Kh As High Card 
+3s 6c 6h 9c Ac Ah As Full House 
+3h 3s 4s 5h 7c 8h Th Dupla 
+3s 4s 6h 9c Ts Jc Ac High Card 
+4s 7s 9h 9s Ts Qh Ah Dupla 
+6h 7c 8c 8h Ts Kc Ac Dupla 
+4c 4h 9c 9s Tc Qc Ks Duas Duplas 
+3c 3s 5c 6s 7s Jh Kc Dupla 
+4h 5h 5s 6c 6h 8c 8h Duas Duplas 
+3s 4s 5h 5s Ts Ac Ah Duas Duplas 
+4s 5s 6h Th Ts Qh Kc Dupla 
+3h 4s 5h 8c 9h Ts Kh High Card 
+8c 9c Tc 3h 9h Jh Qh Straight  
+3h 7h 7s 8s Ts Ks Ac Dupla 
+3s 4h 5c 6s 8c 9s Qc High Card 
+3c 4c 5s 7c 7h 9h Tc Dupla 
+3c 5h 8s 9s Jc Js Kh Dupla 
+5s 6h 8h 9c Tc Kc As High Card 
+5h 6s 7c 9c Th Ks Ah High Card 
+6s 8h Tc Th Jc Jh Kh Duas Duplas 
+4c 5c 7c 8c 9s Js Qs High Card 
+3s 6c 8c 9h Tc Jh Kh High Card 
+3c 5h 9c 9s Tc Kh As Dupla 
+3c Tc Jh Qs Kc Kh Ks Trinca 
+4s 5c Th Jc Qh Ks As High Card 
+6h 7s 8h Ts Jh Kc Ac High Card 
+Jc 3h 4h 6h Th Qh Js Flush 
+5c 5h 7s 8h Th Js Ah Dupla 
+3c 4c 5c Tc Jc 8h 5s Flush 
+4s 6h 8s Qs Kc Kh Ks Trinca 
+Tc 7h 3s 4s 6s 7s Js Flush 
+5h 6c 8c 8s 9c Ac Ah Duas Duplas 
+3s 5c 6c 8c Th Qc Qh Dupla 
+3s 4h 5h Th Ts Js Qh Dupla 
+8c Qc Th Jh Qh 9s As Straight  
+5c 8c 9c Qc Kc 4s 9s Flush 
+3h 5s 9h 9s Tc Jc Qh Dupla 
+4h 4s 6c 7h 9c Tc Kc Dupla 
+Th Jh Kh 4s 7s Qs As Straight  
+3c 4h 9h Js Qs Ks As High Card 
+6c Tc 3h 4h 5h 6h Th Flush 
+4h 6s 7h 8c 8h Tc Kc Dupla 
+4c 5c 5h 9c Ts Qh Ks Dupla 
+3c 4c 5h 7c 8c 8h Ks Dupla 
+3c 4c 4h 6s 9s Jh As Dupla 
+3h 5h 8h Th Jh 6s As Flush 
+3s 4h 6s Qc Qh Qs As Trinca 
+3h 4s 5s 7c 8c 9s Th High Card 
+4h 5c 7s 8s 9s Th As High Card 
+4h 7c 7h 7s 8s 9c 9h Full House 
+3c 4s 9c 9h Jc Qh Ks Dupla 
+5h 6c 7c 7s Tc Ac Ah Duas Duplas 
+4s 5c 5s 7s Ts Jc Ah Dupla 
+3c 4s 6h 8h 8s Jh Qc Dupla 
+3c 3h 7c Qc Qs Kc As Duas Duplas 
+4c 5c 5s 6h Jc Ks Ac Dupla 
+3c 4c 7c 9h 9s Qh Ac Dupla 
+3h 5c 8c Js Qh Ah As Dupla 
+3s 4c 7h 9c 9h Tc Qc Dupla 
+3h 3s 5s 7c 8c Th Js Dupla 
+4s 6h 6s 9c 9h Qs Ks Duas Duplas 
+3s 6h 7s 9h Th Kc Ks Dupla 
+4c 6c 6h 7h 9c Ts Js Dupla 
+3h 4s 6h Th Js Ks As High Card 
+3h 4h 6s 8c Js Qh Qs Dupla 
+4c 5c 6s 7h Qh Kc As High Card 
+3h 4h 6c 7c 8s 9c Qc High Card 
+4c 4h 5h 7s Ts Js Kc Dupla 
+4s 6h 7c 7s 8c 9s Qs Dupla 
+5c 5h 5s 7c 7s Qc Qs Full House 
+3s 5h 8h Th Jh Js Ks Dupla 
+4s 6s 8s 9c Tc Ac As Dupla 
+4h 5s 6s 8h Jc Qh As High Card 
+3c 3h 4s 5s 6c Qc Qh Duas Duplas 
+3c 5c 6c Qc Kc Kh As Flush 
+4h 4s 5h 7c 9h Jh Qc Dupla 
+5h 7s 8h Qs Kh Ks As Dupla 
+3h 4c 5h 7c 9h Qc Kc High Card 
+5c 7s 9c Tc Qc Ks As High Card 
+6h 8s 9c 9h 9s Jh Qh Trinca 
+3s 4s 6h 8c Js Qh Ac High Card 
+3h 3s 5h 6c 8h 9c Ac Dupla 
+4c 6s 9c Tc Th Qh As Dupla 
+3c 6c 7c 8c Qc Kc 4h Flush 
+3s 4h 8h Tc Th Ts Js Trinca 
+3h 8c 9s Jh Qc Kc Kh Dupla 
+4s 6h 6s 7s Th Ks Ac Dupla 
+6c 6s 8h Tc Qh Qs As Duas Duplas 
+4h 6h 8c Js Qs Ks Ah High Card 
+4c 5c Qc 3h 6h 7s Js Straight  
+6c 6h 9c 9s Ts Qh Kh Duas Duplas 
+5s 6s 7h 9s Tc Jh As High Card 
+3h 4c 6s 8s 9h Qs Ks High Card 
+8c 8h Ts Jh Ks Ah As Duas Duplas 
+3c 7s 8h 9c Js Qc Ah High Card 
+3h 5c 9s Tc Ts Qs Ac Dupla 
+3c 7s 8s Tc Qs Kh Ah High Card 
+3s 5s 7h Jh Qh Ks As High Card 
+3c 3s 5s 8h 9h Js Qs Dupla 
+3s 7c 7h 8s Qc Qh Kc Duas Duplas 
+5c 5s 6c 6h 7c Jc As Duas Duplas 
+3h 5c 5s 7h Qc Ks As Dupla 
+3c 5c 6c 6h Ac Ah As Full House 
+3s 5h 6h 8c 8s Ah As Duas Duplas 
+3s 5h 6s 8h 9c Js Qs High Card 
+3h 3s 5c Th Ts Jc Ks Duas Duplas 
+3s 4s 5h 8c 9s Th Ts Dupla 
+3c 6s 7h 9h Th Qc Qs Dupla 
+4s 8s 9s Th Ts Qc Qh Duas Duplas 
+3h 4h 7c 8s 9c Jh As High Card 
+5s 7s 8c 9s Tc Th Qs Dupla 
+3s 5s 6c Ts Jc Kc Kh Dupla 
+4h 6h 7h 9c Kc Ks Ac Dupla 
+3c 3s 5c 5h 9c Kh As Duas Duplas 
+5c 7c 8c Th Js Qh Ks High Card 
+4h 5s 7s 8c Jc Kh Ks Dupla 
+4c 5h 5s 7s Th Kh Ks Duas Duplas 
+Ts Js Qs Ks As Kd 2h Royal Flush (winner)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
