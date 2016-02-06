@@ -1,7 +1,0 @@
-Software desenvolvido em Java 7.
-Para sua execução é necessária a máquina virtual sendo a versão no mínimo 6 instalada.
-Software desenvolvido na IDE NetBeans, possui testes automatizados com o JUnit.
-Possui Javadoc.
-
-Atenciosamente
-Kaio Cristian
